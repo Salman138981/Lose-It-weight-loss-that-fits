@@ -84,7 +84,293 @@ body{
 }
 .fa-apple{
     font-size: 30px;
+    
+}
+
+/* steps section */
+#steps{
+   margin:50px auto;
+   text-align: center;
+}
+.steps-div{
+    display: flex;
+    justify-content: center;
+    width:1000px;
+    margin:0 auto;
+
+
+}
+.steps-div>div{
+    width:28%;
+    margin:0 15px;
+    text-align: center;
+}
+#steps h2{
+    margin: 30px;
+    font-size: 2rem;
+    color:#183962;
+
+}
+#steps h3{
+    font-size: 1.5rem;
+    color:#ff9400;
+    font-weight: 500;
+
+}
+#steps img{
+    width:50%;
+}
+#steps p{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
     color:gray;
 }
 
+/* features section */
+#features{
+    background-color: #f1f1f1;
+    height: 350px;
+    padding-bottom: 30px;
+    
+}
+#features>.features-div{
+    width: 100%;
+
+    padding-top: 50px;
+}
+#features>div>div{
+   display: flex;
+    justify-content: center;
+    width:60%;
+    text-align: center;
+    margin:auto;
+
+}
+#features>div>div>div{
+    background-color: white;
+    padding:15px;
+    margin:10px 20px;
+    border-radius: 10px;
+   
+}
+#features>div>div>div>img{
+    width: 100px;
+
+}
+#features>div>div>div>h3{
+    color:#183962;
+    margin:5px 0;
+    line-height: 25px;
+    font-size: 1.5rem;
+}
+#features>div>div>div>p{
+    color:gray;
+    margin:5px 0;
+    line-height: 25px;
+}
+
+#slide{
+    text-align:center;
+    
+}
+#slide>span{
+    background-color: #9da5a5;
+    height:15px;
+    width:35px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 30px 10px;
+    
+   
+}
+#numbers{
+    width:1000px;
+    text-align:center;
+    margin:50px auto;
+   
+}
+#numbers #number-div>img{
+    width:200px;
+    margin-top:50px;
+        
+}
+#numbers #number-div>h1{
+    color:#ff9400;
+    font-size: 6.5rem;
+    font-weight: 700;
+    margin:0 auto;
+}
+#numbers h2{
+    color:#455555;
+    font-size:2rem;
+    letter-spacing: .4em;
+    font-weight: 700;
+    margin:20px auto;
+}
+#numbers hr{
+    border:5px solid #ff9400;
+    margin-bottom: 40px;
+    width:50px;
+}
+#numbers h3{
+    color:#183962;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom:0;
+}
+#numbers #images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+  
+}
+#images>img{
+        width: 150px;
+        background-color: transparent;
+        margin: 0;
+        padding: 10px 15px;
+}
+
+/* advice section */
+#advice{
+    text-align:center;
+    background-color: #183962;
+    padding:40px 0;
+    margin:10px 0;
+}
+#advice h2{
+    font-size: 2rem;
+    color:#fff;
+    font-weight: 500;
+}
+#advice-mid{
+    width:1000px;
+   
+    display:flex;
+    margin: 0 auto;
+  
+
+
+}
+#advice-mid>div{
+    width:50%;
+}
+#advice-mid img{
+    width:200px;
+}
+#advice-mid p{
+    color:#ffa600;
+    font-size: 1.1rem;
+    width:75%;
+    margin:10px auto;
+    
+}
+#advice-mid span{
+    color:#fff;
+}
+#advice .button{
+    font-size:1rem;
+    color:white;
+    background-color: #ff9400;
+    font-weight: 400;
+    margin:20px 20px;
+    padding:10px 40px;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    margin-top:50px;
+    display:inline-block;
+    letter-spacing: 1px;    
+}
+
+#blog{
+    text-align: center;
+    margin: 60px auto;
+
+}
+#blog h2{
+    font-size: 2rem;
+    color:#183962;
+    margin:0 
+}
+#blog .crousel-inner{
+    width:1000px;
+    
+   
+    display:flex;
+    
+    margin:40px auto;
+    position: relative;
+}
+#blog .crousel-item{
+   
+    display:flex;
+    justify-content: space-between;
+
+}
+
+#blog img{
+    width:200px;
+}
+#blog p{
+    display: inline-block;
+    font-size: 20px;
+    width:70%;
+}
+#blog a{
+    color:white;
+    background-color: #183962;
+    padding:20px 40px;
+    border-radius:0.25rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+}
+#getStarted{
+    text-align: center;
+    padding: 30px 0 70px 0;
+    background-color: #f1f1f1;
+    background-image: url(https://assets.loseit.com/website/home/Pattern_50opacity_Long.svg);
+    background-size: cover;
+    background-position: center;
+}
+#getStarted h3{
+    font-size: 20px;
+    color:#ff9400;
+    font-weight: 200;
+}
+#getStarted img{
+    width:200px;
+    height:70px;
+    padding:10px 10px;
+}
+#footer{
+    text-align: center;
+    background-color: #183962;
+    
+}
+#footer>.images{
+    padding-top:50px;
+}
+#footer img{
+  width:100px;
+ 
+}
+#footer .links{
+   width:1000px;
+    margin:30px auto;
+    
+}
+#footer table{
+    text-align: left;
+    color:#fff;
+    width:60%;
+    margin:auto;
+    font-size: 1rem;
+}
+#footer table>tbody>tr>td{
+    width:33%;
+}
 
