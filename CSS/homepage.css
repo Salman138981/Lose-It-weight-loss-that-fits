@@ -349,11 +349,10 @@ body{
 #footer{
     text-align: center;
     background-color: #183962;
+    padding:50px 0;
     
 }
-#footer>.images{
-    padding-top:50px;
-}
+
 #footer img{
   width:100px;
  
@@ -374,3 +373,18 @@ body{
     width:33%;
 }
 
+#social a{
+    color:white;
+     font-weight: 500;
+     font-size: 20px;
+    margin:0 10px;
+    border-radius: 0.25rem;
+
+ 
+}
+#social a:hover{
+    color:#ff9400;
+}
+#footer p{
+ color:white;
+}
