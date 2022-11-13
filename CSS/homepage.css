@@ -183,6 +183,9 @@ body{
     
    
 }
+#slide>span:hover{
+    background-color: rgb(105, 102, 102);
+}
 #numbers{
     width:1000px;
     text-align:center;
@@ -319,7 +322,7 @@ body{
     font-size: 20px;
     width:70%;
 }
-#blog a{
+#blog>a{
     color:white;
     background-color: #183962;
     padding:20px 40px;
@@ -328,6 +331,8 @@ body{
     letter-spacing: 1px;
 
 }
+
+
 #getStarted{
     text-align: center;
     padding: 30px 0 70px 0;
