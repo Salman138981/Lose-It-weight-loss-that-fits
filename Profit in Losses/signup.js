@@ -12,10 +12,10 @@ document.querySelector("button").addEventListener("click",()=>{
     }else{
         let obj={Name,Email,Password};
        
-    
+        window.location.href = "./index.html";
         localStorage.setItem("check",JSON.stringify(obj));
-
-        window.location.href="../HTML/homepage.html";
+        return alert("successful signup")
+        
 
     }
 
