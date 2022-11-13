@@ -9,7 +9,7 @@ document.querySelector("form").addEventListener("submit",()=>{
     if(Email != collectdata.Email || Password!= collectdata.Password){
         alert("Invalid username or password");
     }else{
-        window.location.href="../HTML/homepage.html";
+        window.location.href="./index.html";
          alert(collectdata.Name+" You are logged in");
     }
 })
