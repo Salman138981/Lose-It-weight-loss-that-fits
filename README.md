@@ -1,7 +1,7 @@
 # Lose it - Weight loss that fits
 -------------------------------------
 ### Lose-it.com is an impressive front-end project crafted with HTML, CSS, and JavaScript. It serves as an empowering platform for users to proactively nurture their fitness and well-being through the adoption of wholesome dietary practices.
-#Overview
+# Overview
 ![Lose-it](Lose-it.PNG)
 
 ## Tech Stack
